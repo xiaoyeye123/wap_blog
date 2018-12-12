@@ -1,7 +1,7 @@
 
 # mblog2
 
-> A Vue.js project pc端的博客前端代码
+> A Vue.js project wap端的博客前端代码
 
 ## Build Setup
 
@@ -19,6 +19,6 @@ npm run build
 npm run build --report
 ```
 
-+ 线上地址：http://pc.xiaoyeyedada.cn
++ 线上地址：还未上线......
 
 
