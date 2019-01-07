@@ -12,8 +12,8 @@
           <img :src="banner">
         </div>
         <div class="swiper-pagination" slot="pagination"></div>
-        <div class="swiper-button-prev" slot="button-prev"></div>
-        <div class="swiper-button-next" slot="button-next"></div>
+        <!--<div class="swiper-button-prev" slot="button-prev"></div>-->
+        <!--<div class="swiper-button-next" slot="button-next"></div>-->
       </swiper>
     </div>
 
@@ -121,8 +121,8 @@ export default {
   },
 }
 
-ls.setItem('a', 1)
-console.log(ls.getItem('a'))
+// ls.setItem('a', 1)
+// console.log(ls.getItem('a'))
 
 </script>
 

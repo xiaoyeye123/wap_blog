@@ -11,6 +11,16 @@ export default new Router({
       path: '/',
       name: 'Layout',
       component: Layout
+    },
+    {
+      path: '/type',
+      name: 'Type',
+      component: () => import('@/components/Type')
+    },
+    {
+      path: '/articles',
+      name: 'Articles',
+      component: () => import('@/components/Articles')
     }
   ]
 })
