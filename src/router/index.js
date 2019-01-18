@@ -21,6 +21,16 @@ export default new Router({
       path: '/articles',
       name: 'Articles',
       component: () => import('@/components/Articles')
+    },
+    {
+      path: '/article',
+      name: 'Article',
+      component: () => import('@/components/Article')
+    },
+    {
+      path: '/my',
+      name: 'My',
+      component: () => import('@/components/My')
     }
   ]
 })

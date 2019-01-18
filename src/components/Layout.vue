@@ -24,7 +24,7 @@
         <li class="article" v-for="blog in dataList">
           <h3 class="articleTitle" style="font-size: 19px">
             <!--<b style="color: #F00;">【顶】</b>-->
-            <router-link :to="23232">
+            <router-link :to="{ name: 'Article', query: { id: blog.id }}">
               {{ blog.title}}
             </router-link>
           </h3>
@@ -48,7 +48,7 @@
           </div>
 
           <div style="margin-top: 10px;">
-            <button class="btn btn-info" style="width: 90%">查看更多</button>
+            <router-link :to="{ name: 'Article', query: { id: blog.id }}"><button class="btn btn-info" style="width: 90%">查看更多</button></router-link>
           </div>
         </li>
       </ul>
